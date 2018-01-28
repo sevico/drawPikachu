@@ -7,6 +7,7 @@
             n += 1;
             container.innerHTML = code.substring(0, n);
             styleTag.innerHTML = code.substring(0, n);
+            container.scrollTop=container.scrollHeight;
             if(n>=code.length) {
                 window.clearInterval(id)
                 fn && fn.call();

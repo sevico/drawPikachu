@@ -20,10 +20,15 @@ body{
 .code-wrapper{
     flex: 1;
     height: 50%;
+    padding: 10px;
 }
 .preview-weapper{
     flex: 1;
     height: 50%;
+}
+#code{
+    overflow: hidden;
+    height: 100%;
 }
 
 /*.preview {*/
