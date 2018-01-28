@@ -49,6 +49,9 @@ body{
 .actions>button:focus{
     outline: none;
 }
+
+
+
 /*.preview {*/
     /*!*height: 100vh;*!*/
     /*height: 100%;*/
